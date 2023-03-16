@@ -1,0 +1,11 @@
+public enum Season
+{
+    WINTER, SPRING, SUMMER, FALL
+ 
+}
+
+
+System.debug(Season.WINTER);
+System.debug(Season.SUMMER.ordinal());
+
+System.debug(Season.values());
